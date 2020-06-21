@@ -1,0 +1,13 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { GalleryComponent, GalleryModule } from './public_api';
+export { GalleryItemComponent as ɵb } from './lib/gallery-item/gallery-item.component';
+export { GalleryRoutingModule as ɵc } from './lib/gallery-routing.module';
+export { HomeComponent as ɵa } from './lib/home/home.component';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW52ZW50b3J5LmpzIiwic291cmNlUm9vdCI6Im5nOi8vaW52ZW50b3J5LyIsInNvdXJjZXMiOlsiaW52ZW50b3J5LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxnREFBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLG9CQUFvQixJQUFJLEVBQUUsRUFBQyxNQUFNLDJDQUEyQyxDQUFDO0FBQ3JGLE9BQU8sRUFBQyxvQkFBb0IsSUFBSSxFQUFFLEVBQUMsTUFBTSw4QkFBOEIsQ0FBQztBQUN4RSxPQUFPLEVBQUMsYUFBYSxJQUFJLEVBQUUsRUFBQyxNQUFNLDJCQUEyQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBHZW5lcmF0ZWQgYnVuZGxlIGluZGV4LiBEbyBub3QgZWRpdC5cbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL3B1YmxpY19hcGknO1xuXG5leHBvcnQge0dhbGxlcnlJdGVtQ29tcG9uZW50IGFzIMm1Yn0gZnJvbSAnLi9saWIvZ2FsbGVyeS1pdGVtL2dhbGxlcnktaXRlbS5jb21wb25lbnQnO1xuZXhwb3J0IHtHYWxsZXJ5Um91dGluZ01vZHVsZSBhcyDJtWN9IGZyb20gJy4vbGliL2dhbGxlcnktcm91dGluZy5tb2R1bGUnO1xuZXhwb3J0IHtIb21lQ29tcG9uZW50IGFzIMm1YX0gZnJvbSAnLi9saWIvaG9tZS9ob21lLmNvbXBvbmVudCc7Il19

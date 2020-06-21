@@ -1,0 +1,10 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div *ngFor="let galleryItem of galleryItems">
+        <!-- Gallery item -->
+        <gallery-item [model]="galleryItem"></gallery-item>
+      </div>
+    </div>
+  </div>
+</section>

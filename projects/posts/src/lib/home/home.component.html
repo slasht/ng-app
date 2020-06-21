@@ -1,0 +1,30 @@
+<section>
+  <div class="container">
+    <h2 class="text-center">
+      My Posts
+    </h2>
+
+    <!-- Loading spinner -->
+    <div *ngIf="loading" class="fa fa-spinner fa-spin spinner"></div>
+
+    <!-- Create -->
+    <post-item-create (created)="create($event)"></post-item-create>
+
+    <div *ngFor="let postItem of postItems">
+
+      <!-- Post item -->
+      <post-item [model]="postItem"></post-item>
+
+      <!-- Update -->
+      <post-item-update [postItem]="postItem" (updated)="update($event)"></post-item-update>
+   
+      <!-- Delete -->
+      <post-item-delete [model]="postItem" (deleted)="delete($event)"></post-item-delete>
+
+
+    </div>
+
+
+
+  </div>
+</section>

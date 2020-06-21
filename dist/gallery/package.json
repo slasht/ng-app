@@ -1,0 +1,21 @@
+{
+  "name": "gallery",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/gallery.umd.js",
+  "module": "fesm5/gallery.js",
+  "es2015": "fesm2015/gallery.js",
+  "esm5": "esm5/gallery.js",
+  "esm2015": "esm2015/gallery.js",
+  "fesm5": "fesm5/gallery.js",
+  "fesm2015": "fesm2015/gallery.js",
+  "typings": "gallery.d.ts",
+  "metadata": "gallery.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

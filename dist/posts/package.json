@@ -1,0 +1,21 @@
+{
+  "name": "posts",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/posts.umd.js",
+  "module": "fesm5/posts.js",
+  "es2015": "fesm2015/posts.js",
+  "esm5": "esm5/posts.js",
+  "esm2015": "esm2015/posts.js",
+  "fesm5": "fesm5/posts.js",
+  "fesm2015": "fesm2015/posts.js",
+  "typings": "posts.d.ts",
+  "metadata": "posts.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

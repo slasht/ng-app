@@ -1,0 +1,18 @@
+<section>
+  <div class="container">
+    <h2 class="text-center">
+      My Gallery
+    </h2>
+
+    <!-- Loading spinner -->
+    <div *ngIf="loading" class="fa fa-spinner fa-spin spinner"></div>
+
+
+    <div class="row">
+      <div *ngFor="let galleryItem of galleryItems">
+        <!-- Gallery item -->
+        <gallery-item [model]="galleryItem"></gallery-item>
+      </div>
+    </div>
+  </div>
+</section>

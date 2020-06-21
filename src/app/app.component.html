@@ -1,0 +1,24 @@
+<div class="wrapper">
+  <!-- Sidebar  -->
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <h3>Full Stack Exercise</h3>
+    </div>
+
+    <app-menu></app-menu>
+  </nav>
+
+  <!-- Main Content  -->
+  <div id="content">
+
+    <div id="top-menu" class="horizontal-menu">
+      <app-menu></app-menu>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <div id="bottom-menu" class="horizontal-menu">
+      <app-menu></app-menu>
+    </div>
+  </div>
+</div>
