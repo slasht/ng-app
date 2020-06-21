@@ -9,9 +9,8 @@ import { IntroComponent } from './intro/intro.component';
 import { HomeComponent } from './home/home.component';
 import { ContactModule } from './contact/contact.module';
 
-import { GalleryModule } from 'gallery';
-import { PostsModule } from 'posts';
-
+import { GalleryModule } from '../../projects/gallery/src/lib/gallery.module';
+import { PostsModule } from '../../projects/posts/src/lib/posts.module';
 
 @NgModule({
   declarations: [
